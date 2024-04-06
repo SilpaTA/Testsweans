@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+    
+	
+/*
+golden: #ca9d5a
+green: #1f4035
+purple: #572361
+*/
+	
+
+body {
+    font-size: 15px;
+    line-height: 22px;
+	
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.container{
+    width: 1100px;
+}
+
+hr{
+	border-top: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+
+h1, h2, h3, h4{
+    
+}
+
+
+a {
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #ca9d5a;
+}
+a:hover {
+    color: #ca9d5a;
+}
+
+
+h1{
+	font-size: 40px;
+	line-height: 43px;
+	position: relative;
+	display: inline-block;
+}
+
+
+h2{
+    font-size: 26px;
+    line-height: 32px; 
+}
+
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+h4{
+    font-size: 16px;
+	line-height: 20px;
+}
+
+
+
+
+
+p.small {
+  font-size: 14px;
+  line-height: 17px;
+}
+p{
+    font-weight: 500;
+    font-size: 16px;
+    Line height:26.08px;
+}
+
+figure{
+    margin: 0px;
+}
+.common-page{
+    margin: 5rem 0;
+}
+.error{
+    text-align: center;
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+
+
+.bg-black{
+    background: #000;
+}
+
+.bg-brown{
+	background: #e07f59;
+}
+
+
+.bg-golden{
+	background: #ca9d5a;
+}
+
+
+.border-grey{
+    border: 1px solid #e5e5e5;
+}
+
+
+
+.text-black{
+    color: #000;
+}
+
+.text-white a{
+    color: #fff;
+}
+
+.text-golden{
+	color: #ca9d5a;
+}
+
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.shadow {
+    box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.round{
+    border-radius: 8px;
+    overflow: hidden;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #000;
+    padding: 0 3rem;
+}
+.header-cnt-btn{
+    float: right;
+    text-align: right;
+    width: 100%;
+}
+
+
+
+.header-cnt-btn a.contactus-btn,
+.black-btn{
+    background: #000000;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding: 1rem 2rem;
+    letter-spacing: 1.5px;
+
+}
+.common-heading{
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+
+
+}
+.btn-blue{
+    background: #407BFF;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding: 1rem 2rem;
+    letter-spacing: 1.5px;
+}
+footer{
+    background: #000;
+    color: #A6A6A6;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 5rem;
+    padding-top: 6rem; 
+    margin-top: 10rem;
+}
+section{
+    margin-bottom: 10rem;
+}
+
+.copyrights{
+    width: 100%;
+    text-align: center;
+    padding-top: 6rem;
+}
+.copyrights p{
+    color: #A6A6A6;
+    margin: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.31px;
+
+}
+.ft-one p a,
+.ft-one p,
+.ft-one ul li a{
+    color: #A6A6A6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.31px;
+}
+.ft-one p img{
+    margin-right: .5rem;
+}
+.ft-one p span{
+    display: inline-table;
+}
+.ft-one h2{
+    color: #fff;
+    padding-left: .8rem;
+}
+.ft-one ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.ft-one h2, .ft-lgo{
+    margin-bottom: 2rem;
+}
+.socialmedia ul{
+    display: inline-flex;
+}
+.socialmedia ul li{
+    padding-right: .5rem;
+}
+.newsletter-box{
+    background: #F1F1F1;
+    text-align: center;
+    padding: 7rem;
+    border-radius: 10px;
+    margin-bottom: 10rem;
+}
+.newsletter-box h2{
+    text-align: center;
+}
+.newsletter-box  p{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.newsletter{
+    margin-top: -18rem;
+    width: 45%;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-left,.cnt-sec
+{
+    width: 75%;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.service-cnt-box{
+    width: 75%;
+}
+.img-sec img{
+    width: 100%;
+}
+.about-right img{
+    width: 100%;
+}
+.content-sec-three .img-sec{
+    text-align: right;
+}
+.content-sec-three .img-sec img{
+    width: auto;
+}
+.cnt-sec ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+.cnt-sec ul li{
+    background: #F1F1F1;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+
+}
+.cnt-sec ul li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc(var(--icon-space)* -1);
+    width: var(--icon-space);
+    color: #fff;
+    background: #407BFF;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    margin-right: 1rem;
+}
+.srvc-box {
+    background: #F1F1F1;
+    border-radius: 15px;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+.srvc-box img{
+    background: #000;
+    padding: 1rem;
+    border-radius: 6px;
+}
+.srvc-box h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin-top: 1rem;
+}
+.srvc-box p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.form-subscribe
+{
+  max-width:600px;
+  margin:0 auto
+}
+.form-subscribe .input-group{
+    background: #fff;
+    padding: .5rem;
+    border-radius: 6px;
+}
+.form-subscribe .form-control{
+    height: auto;
+    border: none;
+}
+.newsletterform{
+    margin-top: 1rem;
+}
+@media only screen and (max-width:767px) {
+    .about-left, .cnt-sec,
+    .service-cnt-box {
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .content-sec-three .img-sec img,
+    .newsletter, .newsletter-box p {
+        width: 100%;
+    }
+    .newsletter-box{
+        padding: 1.5rem;
+    }
+    .ft-one h2{
+        margin-top: 2rem;
+    }
+    .socialmedia {
+        margin-left: 1rem;
+    }
+    section {
+        margin-bottom: 1rem;
+    }
+    .header-cnt-btn a.contactus-btn{
+        padding: 1rem;
+    }
+    .header-cnt-btn{
+        text-align: left;
+    }
+    .content-sec-four{
+        margin-bottom: 4rem !important;
+    }
+}
